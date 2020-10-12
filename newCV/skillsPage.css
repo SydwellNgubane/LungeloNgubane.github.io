@@ -45,13 +45,10 @@
 
 .skills-section {
     margin: auto;
-    /*margin-top: 150px;*/
     box-shadow: 3px 3px 5px 3px rgba(1, 56, 79, 1);
     padding: 25px 30px;
-    /*font-size: 1.5rem;*/
     width: 90%;
     max-width: 800px;
-    /*max-height: 500px;*/
     background-color: black; /*color of container*/
 }
 

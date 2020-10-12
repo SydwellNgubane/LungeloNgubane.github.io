@@ -2,8 +2,6 @@
 .interestsPage {
     max-height: 1000px;
     background-color: ghostwhite;
-    /*box-sizing: border-box;*/
-    
 }
 
 .headings {
@@ -91,7 +89,7 @@
 }
 
 .box .content {
-    margin: 20px 0 0 0; /*position of red underliner*/
+    margin: 20px 0 0 0;
     position: relative;
 }
 
@@ -128,7 +126,7 @@
         .left .content .social a span {
             height: 40px;
             width: 40px;
-            background: #0074a6; /*Social background*/
+            background: #0074a6;
             line-height: 40px;
             text-align: center;
             font-size: 18px;
@@ -174,6 +172,7 @@
 
 .right form .msg {
     margin-top: 10px;
+    width: 100%;
 }
 
 .right form input, .right form .msgForm {
@@ -181,12 +180,13 @@
     font-size: 1.0625rem;
     background: #151515;
     padding-left: 10px;
-    border: 1px solid #222222;
+    border: 1px solid #4b9bbd;
+    color: white;
 }
 
     .right form input:focus,
-    .right form .msgForm:focus {
-        outline-color: #9edb34;
+    .right form .msgForm:focus .msg:focus{
+        outline-color: #55b1d8;
     }
 
 .right form input {

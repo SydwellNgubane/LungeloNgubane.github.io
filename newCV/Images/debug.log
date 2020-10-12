@@ -1,0 +1,40 @@
+[1012/025739.674:ERROR:settings.cc(430)] Settings version is not 5
+[1012/025739.815:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/030739.885:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/030739.940:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Lungelo Ngubane\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\270b7393-ac24-468b-b6df-47f6c85f1bc9: The system cannot find the path specified. (0x3)
+[1012/030739.970:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Lungelo Ngubane\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\824cfac0-1be4-4d84-b917-c6a97fa43b37: The system cannot find the path specified. (0x3)
+[1012/030739.970:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1012/030739.972:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/030739.973:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/031239.822:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/032739.824:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/034239.825:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/035739.897:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/041239.899:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/042739.902:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/044239.903:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/045740.133:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/051240.134:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/052740.242:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/054240.251:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/055740.444:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/061240.447:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/062740.493:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/064241.395:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/065741.581:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/071241.582:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/072741.583:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/074241.598:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/075741.671:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/081241.710:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/082741.730:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/084241.741:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/085741.771:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/091241.772:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/092741.788:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/094241.793:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/095741.794:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/101242.042:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/102742.043:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/104242.086:ERROR:crash_report_database_win.cc(459)] unexpected header
+[1012/105742.129:ERROR:crash_report_database_win.cc(459)] unexpected header

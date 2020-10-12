@@ -1,12 +1,4 @@
-/*.headings{
-    height: 0px;
-    padding-bottom: 0px;
-    padding-top: 80px;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    font-size: 50px;
-    color: #102f4a;
-}*/
+
 .aboutMecontainer{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(Images/apple.jpg);
     background-size: cover;
@@ -26,10 +18,20 @@
     box-shadow: 9px 9px 30px rgba(98, 98, 100, 0.9);
     transition: 0.5s ease-in-out;
 }
+
+.downloadLink{
+    text-align: center;
+    color: lavender;
+    font-size: unset;
+    font-family: inherit;
+}
+.downloadLink:hover{
+    color: #45a9ff;
+}
 .styleContent{
     text-align: center;
     color: #fff;
-    padding-bottom: 120px;
+    padding-bottom: 300px;
     padding-right: 120px;
     padding-left: 120px;
     padding-top: 60px;
