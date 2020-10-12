@@ -1,0 +1,136 @@
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px 50px;
+}
+.skillsContent {
+    background-color: #0099dc;
+    background: linear-gradient(180deg,#31a9ff,#001e36);
+    border-bottom: 8px solid #31a9ff;
+    height: 870px;
+    /*padding-top: 100px;
+    background-color: #0099dc;
+    color: black;
+    flex-basis: 50%;
+    padding: 10px 20px;*/
+}
+.skillsPage{
+    background: linear-gradient(180deg,#31a9ff,#001e36);
+    border-bottom: 8px solid #31a9ff;
+}
+.row {
+    margin: 0 -5px; /* Remove extra left and right margins, due to padding */
+}
+
+.row:after {
+    content: ''; /* Clear floats after the columns */
+    display: table;
+    clear: both;
+}
+
+
+/*@media screen and (max-width: 600px) {
+    
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}*/
+
+:root {
+    --color1: rgb(0, 81, 99); /*Skill*/
+    --color2: linear-gradient( 90deg, rgba(0, 155, 222, 1) 0%, rgba(1, 56, 79, 1) 100% );
+}
+
+.skills-section {
+    margin: auto;
+    /*margin-top: 150px;*/
+    box-shadow: 3px 3px 5px 3px rgba(1, 56, 79, 1);
+    padding: 25px 30px;
+    /*font-size: 1.5rem;*/
+    width: 90%;
+    max-width: 800px;
+    /*max-height: 500px;*/
+    background-color: black; /*color of container*/
+}
+
+i {
+    color: var(--color1);
+}
+
+.what {
+    margin: 0.75rem 0 0.1rem 0.75rem;
+    color: #ebebeb;
+    font-weight: bolder;
+}
+
+.skill-container {
+    background-color: rgb(221, 221, 221); /*background of each columns*/
+    border-radius: 1rem;
+    height: 20px;
+}
+
+.skill {
+    background: var(--color2);
+    height: 100%;
+    color: white;
+    border-radius: 1rem;
+    display: flex;
+}
+
+span {
+    margin: auto;
+}
+
+.s1 {
+    width: 80%;
+}
+
+.s2 {
+    width: 85%;
+}
+
+.s3 {
+    width: 69%;
+}
+
+.s4 {
+    width: 90%;
+}
+
+.s5 {
+    width: 60%;
+}
+
+.s6 {
+    width: 90%;
+}
+
+.s7 {
+    width: 90%;
+}
+
+.s8 {
+    width: 50%;
+}
+
+.s9 {
+    width: 75%;
+}
+
+.s10 {
+    width: 90%;
+}
+
+
+.load {
+    animation: loading 3s linear;
+}
+
+@keyframes loading {
+    0% {
+        width: 0%;
+        
+    }
+}

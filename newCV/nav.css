@@ -1,0 +1,37 @@
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+    padding: 14px 0; /*from 18px*/
+    margin-top: 0px;
+}
+
+#navbar a {
+/*float: center;*/
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: #333;
+    color: #009bde;
+}
+
+#navbar a.active {
+    background-color: #009bde;
+    color: black;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 60px;
+}
+.content {
+    padding: 16px;
+}

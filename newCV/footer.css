@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+.interestsPage {
+    max-height: 1000px;
+    background-color: ghostwhite;
+    /*box-sizing: border-box;*/
+    
+}
+
+.headings {
+    text-align: center;
+    font-size: 45px;
+    padding: 60px;
+    font-family: sans-serif;
+    color: #102f4a;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 100px;
+}
+.content {
+    padding: 16px;
+    scroll-behavior: smooth;
+}
+.content1 {
+    position: relative;
+    margin: 130px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+    .content1 .text {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #202020;
+    }
+
+    .content1 .p {
+        font-size: 2.1875rem;
+        font-weight: 600;
+        color: #ffffff;
+    }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: #a6a6a6;
+}
+
+.fa-instagram {
+    background: #55ACEE;
+    color: #a6a6a6;
+}
+.footer {
+    bottom: 0px;
+    width: 100%;
+    background: #1a1919;
+    color: #b8a3a3;
+}
+
+.main-content {
+    display: flex;
+}
+
+    .main-content .box {
+        flex-basis: 50%;
+        padding: 10px 20px;
+    }
+
+.box h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content {
+    margin: 20px 0 0 0; /*position of red underliner*/
+    position: relative;
+}
+
+    .box .content:before {
+        position: absolute;
+        content: '';
+        top: -10px;
+        height: 2px;
+        width: 100%;
+        background: #1a1a1a;
+    }
+
+    .box .content:after {
+        position: absolute;
+        content: '';
+        height: 2px;
+        width: 15%;
+        background: #009bde;
+        top: -10px;
+    }
+
+.left .content p {
+    text-align: justify;
+}
+
+.left .content .social {
+    margin: 20px 0 0 0;
+}
+
+    .left .content .social a {
+        padding: 0 2px;
+    }
+
+        .left .content .social a span {
+            height: 40px;
+            width: 40px;
+            background: #0074a6; /*Social background*/
+            line-height: 40px;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+            .left .content .social a span:hover {
+                background: #009bde;
+            }
+
+.center .content .fas {
+    font-size: 1.4375rem;
+    background: #1a1a1a;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+    .center .content .fas:hover {
+        background: #009bde;
+    }
+
+.center .content .text {
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.center .content .phone {
+    margin: 15px 0;
+}
+
+.right form .text {
+    font-size: 1.0625rem;
+    margin-bottom: 2px;
+    color: #c9c9c9;
+}
+
+.right form .msg {
+    margin-top: 10px;
+}
+
+.right form input, .right form .msgForm {
+    width: 100%;
+    font-size: 1.0625rem;
+    background: #151515;
+    padding-left: 10px;
+    border: 1px solid #222222;
+}
+
+    .right form input:focus,
+    .right form .msgForm:focus {
+        outline-color: #9edb34;
+    }
+
+.right form input {
+    height: 35px;
+}
+
+.right form .btn {
+    margin-top: 10px;
+}
+
+.right form .btn button {
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #009bde;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.right form .btn button:hover {
+    background: #737272;
+}
+
+.bottom-center {
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #151515;
+    text-align: center;
+    color: #363636;
+}
+.bottom-center span {
+    color: #656565;
+}
+
+.bottom-center a {
+    color: #009bde;
+    text-decoration: none;
+}
+
+.bottom-center a:hover {
+    text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+    footer {
+        position: relative;
+        bottom: 0px;
+    }
+
+    .main-content {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+        .main-content .box {
+            margin: 5px 0;
+        }
+}

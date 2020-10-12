@@ -1,0 +1,57 @@
+/*.headings{
+    height: 0px;
+    padding-bottom: 0px;
+    padding-top: 80px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: #102f4a;
+}*/
+.aboutMecontainer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(Images/apple.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 5px;
+}
+.avatar {
+    width: 210px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+.avatar:hover {
+    box-shadow: 9px 9px 30px rgba(98, 98, 100, 0.9);
+    transition: 0.5s ease-in-out;
+}
+.styleContent{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 120px;
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-top: 60px;
+    font-size: 25px;
+    text-shadow: 2px 2px 50px #31a9ff;
+}
+.h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.headingAbout{
+    text-align: center;
+    font-size: 45px;
+    padding: 60px;
+    font-family: sans-serif;
+    color: #45a9ff;
+    margin-top: 0px;
+    border-top-width: 30px;
+    border-bottom-width: 60px;
+    
+    padding-bottom: 70px;
+
+    padding-top: 100px;
+    /*style="margin-top: 120px;"*/
+}
